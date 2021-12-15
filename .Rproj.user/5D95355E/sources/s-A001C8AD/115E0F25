@@ -1,0 +1,26 @@
+{
+    "id": "115E0F25",
+    "path": "~/Quest Fall 2021/Data_R/Code For R/Final Project_Khaneya Womack/Scripts/DataAnalysis.R",
+    "project_path": "Scripts/DataAnalysis.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639166448233.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "67,0",
+        "scrollLine": "0"
+    },
+    "folds": "0|19|10|0|\n11|55|35|0|\n36|19|52|0|\n",
+    "lastKnownWriteTime": 1639596573,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639596573660,
+    "read_only": false,
+    "read_only_alternatives": []
+}
