@@ -9,31 +9,6 @@ X <- data[col.features]
 
 X.n <-scaler(X[2:8])
 
-# Kmeans Calculation for normalized data no PCA [Fail] ------------------------------------------------------
-
-# K = number of clusters
-K <-4
-
-
-#Clustering Kmeans
-set.seed(1) #Set the seed for reproducibility
-km <- kmeans(X.n,K)
-km
-
-#visualizing Kmeans
-fviz_cluster(km,X.n)
-table(km$cluster)
-
-# Analysis method euclidean (distance matrix)
-dd <- dist(X.n,method="euclidean")
-km_stats <- cluster.stats(dd,km$cluster)
-
-
-# Silhouette analysis
-sil <- silhouette(km$cluster,dd)
-fviz_silhouette(sil)
-paste("The Dunn Index is ",km_stats$dunn)
-
 # PCA of Variables --------------------------------------------------------
 
 Pca <- prcomp(X.n, #pca of all normalized data starting at column 2
@@ -89,8 +64,10 @@ fviz_silhouette(sil.kpca)
 Km_labels <- cbind.data.frame(Km.out$cluster, data[, c(1, 2, )])
 
 # Cross-tab of clustering & known labels
-library(gmodels)
 CrossTable(kinput$Playlist, Km_labels$`Km.out$cluster`)
 
 Ctable <- data.frame(CrossTable(kinput$Playlist, Km_labels$`Km.out$cluster`))
 
+
+
+# Run DataVis.R, found in the scripts folder for graphs

@@ -56,3 +56,5 @@ write.csv(fulllist, "Data - Clean/fulllist.csv")
 # -------------------------------------------------------------------------
 
 
+
+# Next we run DataAnalysis.R, found in the scripts folder

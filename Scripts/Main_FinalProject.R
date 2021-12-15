@@ -9,6 +9,7 @@
 #install.packages("knitr")
 #install.packages("dplyr")
 #install.packages("bruceR")
+#install.packages("gmodels")
 
 # Libraries ---------------------------------------------------------------
 
@@ -21,6 +22,7 @@ library(cluster) #Silhouette
 library(fpc) #cluster.stats
 library(factoextra) #fviz
 library(bruceR) #scaler
+library(gmodels) #Crosstable
 
 
 # Startup Function --------------------------------------------------------

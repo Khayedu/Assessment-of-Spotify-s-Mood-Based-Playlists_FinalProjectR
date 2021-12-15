@@ -1,0 +1,26 @@
+{
+    "id": "49D344B8",
+    "path": "~/Quest Fall 2021/Data_R/Code For R/Final Project_Khaneya Womack/Scripts/Main_FinalProject.R",
+    "project_path": "Scripts/Main_FinalProject.R",
+    "type": "r_source",
+    "hash": "3910215107",
+    "contents": "",
+    "dirty": false,
+    "created": 1639599382236.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "86,54",
+        "scrollLine": "0"
+    },
+    "folds": "2|17|12|0|\n13|12|26|0|\n29|23|82|0|\n",
+    "lastKnownWriteTime": 1639599422,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639599476335,
+    "read_only": false,
+    "read_only_alternatives": []
+}
