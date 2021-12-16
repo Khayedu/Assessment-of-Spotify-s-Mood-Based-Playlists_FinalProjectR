@@ -3,7 +3,7 @@
     "path": "~/Quest Fall 2021/Data_R/Code For R/Final Project_Khaneya Womack/Scripts/DataAnalysis.R",
     "project_path": "Scripts/DataAnalysis.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1383754867",
     "contents": "",
     "dirty": false,
     "created": 1639166448233.0,
@@ -15,12 +15,12 @@
         "cursorPosition": "72,55",
         "scrollLine": "0"
     },
-    "folds": "0|19|10|0|\n28|17|46|0|\n47|33|59|0|\n60|23|70|0|\n",
+    "folds": "0|19|10|0|\n11|19|27|0|\n47|33|59|0|\n60|23|72|55|\n",
     "lastKnownWriteTime": 1639599517,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1639599517970,
+    "last_content_update": 1639604011871,
     "read_only": false,
     "read_only_alternatives": []
 }
